@@ -40,7 +40,7 @@ class Solution2 {
             }
             carry = sum / 10;
         }
-        if(carry>0){
+        if (carry > 0) {
             tail.next = new ListNode(carry);
         }
         return head;
